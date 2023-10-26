@@ -1,0 +1,257 @@
+* {
+    margin: 0;     
+    padding: 0; 
+    
+    font-family: 'Young Serif', serif;
+}  
+/* header style start */ 
+
+body {     
+color: white; 
+
+}  
+
+header {     
+background: linear-gradient(to bottom right, #9400d3, #333333);     
+padding: 30px 0; 
+}  
+footer {     
+text-align: center;     
+background: linear-gradient(to bottom right, #9400d3, #333333);     
+padding: 50px 0; 
+} 
+.logo-text {
+font-family: 'Lobster', sans-serif;
+}
+nav ul {     
+display: flex; 
+gap: 20px;
+}  
+nav ul li {     
+list-style: none;     
+/* margin-right: 20px;       */
+}  
+
+nav ul li a {     
+text-decoration: none;    
+color: white; 
+}  
+nav ul li a:hover {     
+border-bottom: 1px solid white; 
+}  
+.header-container {     
+display: flex;     
+align-items: center;     
+justify-content: space-between; 
+}  
+.logo-text {     
+font-size: 22px; 
+} 
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.apple-logo {
+    width: 20px;
+    height: 20px;
+}
+/* header style end */   
+
+/* section start  */ 
+section {     
+    background-color: black;
+background-repeat: no-repeat;     
+min-height: 100vh;     
+display: flex;     
+flex-direction: column;     
+justify-content: center;    
+align-items: center; 
+}  
+.phone-container {     
+display: flex;     
+flex-direction: column;     
+justify-content: center;     
+align-items: center;    
+padding: 50px;      
+/* border: 1px solid white;  */
+}  
+.iphone-ipad {     
+display: flex;     
+justify-content: center; 
+}  
+.iphone-container, 
+.ipad-container {     
+/* width: 300px;      */
+text-align: center;    
+border: 1px solid white;     
+padding: 40px 80px; 
+} 
+.ipad-container {     
+/* margin-left: 20px;  */
+} 
+.macbook-container {     
+/* width: 300px;      */
+text-align: center;     
+border: 1px solid white;     
+padding: 40px 80px;
+}  
+.iphone-container:hover, 
+.ipad-container:hover, 
+.macbook-container:hover {     
+cursor: pointer;     
+background-color: rgba(43, 22, 49, 0.5); 
+}  
+
+.prod-img {
+height: 230px;     
+width: 100%;
+}
+.index-section h2 {
+font-size: 16px;
+}
+/* section end  */  
+
+/* iphone details start  */ 
+.iphone-div {     
+display: flex;     
+align-items: center;     
+gap: 50px; 
+} 
+
+
+
+.iphone-img-div {     
+height: 230px;     
+width: 100%;     
+/* border: 1px solid white;  */
+} 
+
+.iphone-ul {     
+list-style-type: disc;     
+list-style-position: inside;     
+margin-top: 10px; 
+}
+/* iphone details end */
+
+/* products start  */
+
+.prod-section {
+padding: 50px 0;
+}
+
+.product-div {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+margin-bottom: 50px;
+}
+
+.product-img-2 {
+/* height: 230px;      */
+width: 100%;
+cursor: pointer;
+position: relative;
+display: inline-block;
+overflow: hidden;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+background: rgba(0, 0, 0, 0);
+color: white;
+padding: 10px;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: opacity 0.3s;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.product-img-2:hover .overlay {
+background: rgba(0, 0, 0, 0.8);
+opacity: 1;
+}
+
+
+.prod-img-2 {
+height: 230px;     
+width: 100%;
+cursor: pointer;
+}
+
+
+.product-row {
+/* border: 1px solid white; */
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+/* products end  */
+
+
+/* contact section start  */
+
+.contact-section {
+text-align: center;
+background-color: linear-gradient(to bottom right, #9400d3, #333333);
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background-color: #3f1c3c;
+/* border: 1px solid #ccc; */
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+color: #e8e1e1;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px 0;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+.contact-section button {
+background-color: #2b3540;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.contact-section button:hover {
+background-color: #0056b3;
+}
+
+/* contact section end */
+
+/* about section start  */
+
+.about-container {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+/* about section end */
